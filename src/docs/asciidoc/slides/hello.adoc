@@ -1,0 +1,10 @@
+== The Very Slow Time Machine
+Jez Higgins
+
+image::illuminated-by-monitor-light.jpg["Illuminated By Monitor Light", border=0]
+
+[NOTE.speaker]
+--
+Hello everyone. I'm Jez and I'm currently software-grandad for West Midlands Fire Service and a software developer-cum-researcher for the Archangel Project, and it's the Archangel Project I'm here to talk about today.
+--
+

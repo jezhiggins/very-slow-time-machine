@@ -1,0 +1,9 @@
+= The Very Slow Time Machine
+
+:revealjs_center: false
+:revealjs_progress: false
+
+include::slides/hello.adoc[]
+
+:imagesdir: images
+:sourcedir: snippets
