@@ -5,18 +5,9 @@
 
 include::slides/hello.adoc[]
 
+include::slides/fake-news.adoc[]
+
 include::slides/thanks.adoc[]
-
-:imagesdir: images
-:sourcedir: snippets
-= The Very Slow Time Machine
-
-:revealjs_center: false
-:revealjs_progress: false
-
-include::slides/hello.adoc[]
-
-include::Sl
 
 :imagesdir: images
 :sourcedir: snippets

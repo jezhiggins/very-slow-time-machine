@@ -1,0 +1,18 @@
+== ARCHANGEL
+
+> The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility and integrity of digital archives*
+
+[NOTE.speaker]
+--
+Because I came in a bit later, I don't know who came up with the name Archangel, or why it's stylised in all-capitals. That makes it sound quite portentous and serious and actually a little bit creepy somehow, which is a shame because Archangel is explicitly about trust.
+--
+
+== ARCHANGEL
+
+[NOTE.speaker]
+--
+Archangel is a collaboration between the University of Surrey CVSSP (Centre for Vision, Speech, & Signal Processing), The National Archive, and The Open Data Institute.
+
+It's funded by Research Councils UK's Digital Economy Programme through the EPSRC (the Engineering and Physical Sciences Research Council
+--
+
