@@ -1,7 +1,7 @@
 == The Very Slow Time Machine
 Jez Higgins
 
-image::illuminated-by-monitor-light.jpg["Illuminated By Monitor Light", border=0]
+image::illuminated-by-monitor-light.jpg["Illuminated By Monitor Light"]
 
 [NOTE.speaker]
 --

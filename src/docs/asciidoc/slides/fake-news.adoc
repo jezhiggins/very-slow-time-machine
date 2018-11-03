@@ -1,6 +1,6 @@
 == Fake, fake disgusting news
 
-image::flat-earth.png[]
+image::flat-earth.png[margin=0]
 
 [NOTE.speaker]
 --
@@ -33,11 +33,69 @@ Paper isn't really durable. A lot of it is pretty low quality, and ages badly - 
 
 It's also quite flammable.
 
-Norwich, of course, is a famously old city, although perhaps not now quite as important as it once was. Consequently it had a very rich documentary history, including items dating as far back as 1090.
+Norwich, of course, is a famously old city, although perhaps not now quite as important as it once was. Consequently it had a very rich history, and the library's archive included items dating as far back as 1090.
 
-Much of that archive was lost in 1994, when the library caught fire following a gas explosion. There were something like 100,000 books lost in the fire. It wasn't actually the fire that damaged much of the archival record though. A lot of that was stored in lovely fireproof vaults in the basement. Unfortunately, those were flooded in the attempt to extinguish the flames.
+Unfortunately a big chunk of that archive was lost in 1994, when the library caught fire following a gas explosion. There were something like 100,000 books destroyed in the fire. It wasn't actually the fire that damaged much of the archival record though. A lot of that was stored in lovely fireproof vaults in the basement. Unfortunately, those were flooded in the attempt to extinguish the flames.
 
 At the time the library had recently been refurbished, but a sprinkler system was not fitted because it was considered it would do unacceptable damage in the event of a small fire.
 
-So those records were lost - including (I think) the city's Charter from Richard I, but also more recent records such as American Air Division Memorial Library. They're gone from history, and this city, and by extension this country and beyond, has a whole in its history.
+The damage in the case of a large fire hadn't, apparently, been considered but turned out to be considerable.
+
+So those records were lost - including (I think) the city's Charter from Richard I, but also more recent records such as American Air Division Memorial Library. They're gone from history, and this city, and by extension this country and beyond, has a hole in its history.
+--
+
+== A Scanner, Darkly
+
+image::hard-disks.jpg["Server array"]
+
+[NOTE.speaker]
+--
+So what's the solution to the flammable, fragile document problem?
+
+Digital right?
+
+We can just scan all those paper document into lovely, easy to store digital copies. We can, I don't know, back them up into the cloud.  Then we can laugh in the face of fire and flood.
+
+Plus, of course, more and more new documents that we want to keep are "digital native". They were created on a computer, of some kind, and never exist as an actual physical artifact at all.
+
+So digital, right?
+
+Well, yes, but also no.
+
+Digital documents, and by documents here I mean text, pictures - whether artwork or photographs, videos, sound recordings, etc, etc, may indeed be easier to store safely.  Well, up to a point. The physical media is still subject to degradation, but lets assume we can solve that problem.
+
+The issue with digital documents is one of authenticity. They are supremely easy to tamper with, whether accidentally or on purposes, with malicious or benign intent.  They are also frightfully easy to forge.
+--
+
+== The largest audience ever...
+
+image::trump-inauguration.png["Trump inauguration"]
+
+[NOTE.speaker]
+--
+Sean Spicer, the Whitehouse press secretary, said Donald Trump drew "the largest audience ever to witness an inauguration, period, both in person and around the globe".
+
+So, here's a photo of the Trump inauguration and on the right is a photo from more or less the same point at the end of the National Mall of the crowd at the Obama inauguration.
+
+What do we believe about theses photos? Why?
+
+What is about these photos that means we think they are true representations, that they haven't been edited, that the where taken at the same kind of time. Why do we think Spicer and Trump are barefaced liars?
+
+So the source is important? Reuters have a reputation as a reliable news agency, providing rapid, accurate reporting right? You don't need to know the history of the news agency, which dates back to 1850, and includes, for example, resisting British government pressure to 'better serve the national interest' during WW2.
+
+Trump, on the hand, well pretty much the only thing he says which is true is his name.
+
+It's not just the document that's important then, it's the provenance. It's where it comes from, who's vouching for it.
+
+But, if you recall my opening slide, those vouchsafed with authority are being undermined. In fifty years time, 20 years, maybe only 5 years, will enough of us still regard Reuters as reliable? I think this kind of trust is a bit like herd immunity - in the UK enough of think Trump is a fool that we're not taken in, but in the US almost enough believe him that the institutions of society are starting to crumble.
+
+--
+
+== Sink or swim
+
+image::life-belt.jpg["Life belt"]
+
+[NOTE.speaker]
+--
+This then is the aim of ARCHANGEL. We're trying to save society from slipping away and dissolving into nothing.
 --
