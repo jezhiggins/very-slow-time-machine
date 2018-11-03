@@ -1,0 +1,19 @@
+
+== THANKS
+
+image::business-card-front.png["Jez UK", float="right", margin=0]
+
+Jez Higgins
+
+@jezhiggins
+
+[NOTE.speaker]
+--
+And that's Archangel!
+--
+
+== Further Reading
+
+* https://theodi.org/article/challenges-in-using-blockchain-to-build-trust-in-digital-archiving/[Challenges in using blockchains to build trust in digital archiving] - The ODI Blog
+
+* https://arxiv.org/abs/1804.08342[ARCHANGEL: Trusted Archives of Digital Public Documents] - Paper presented at ACM Document Engineering 2018
