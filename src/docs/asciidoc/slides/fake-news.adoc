@@ -86,9 +86,6 @@ So the source is important? Reuters have a reputation as a reliable news agency,
 Trump, on the hand, well pretty much the only thing he says which is true is his name.
 
 It's not just the document that's important then, it's the provenance. It's where it comes from, who's vouching for it.
-
-But, if you recall my opening slide, those vouchsafed with authority are being undermined. In fifty years time, 20 years, maybe only 5 years, will enough of us still regard Reuters as reliable? I think this kind of trust is a bit like herd immunity - in the UK enough of think Trump is a fool that we're not taken in, but in the US almost enough believe him that the institutions of society are starting to crumble.
-
 --
 
 == Sink or swim
@@ -97,5 +94,15 @@ image::life-belt.jpg["Life belt"]
 
 [NOTE.speaker]
 --
-This then is the aim of ARCHANGEL. We're trying to save society from slipping away and dissolving into nothing.
+Now the example I've just given is easily resolved. We have the contemporaneous photo, and we can debunk it in more or less in real time.
+
+But what about documents which aren't from right now? I have a neighbour who's mother's estate is stuck in probate because they're having difficulty in establishing the borders of the farm. They're basically having to interview old blokes saying "yes, that field belonged to her". Would digital records help here?
+
+So what about records that released after a certain amount of time? A lot of government records are, for example, sealed (closed in archive speak) for a period of time - 20 years typically, but sometimes longer.
+
+If you recall my opening slide, those vouchsafed with authority are being undermined. In fifty years time, 20 years, maybe only 5 years, will enough of us still regard Reuters as reliable? I think this kind of trust is a bit like herd immunity - in the UK enough of think Trump is a fool that we're not taken in, but in the US almost enough believe him that the institutions of society are starting to crumble.
+
+If institutional trust is undermined, what credence can we give a bunch of PDFs labelled "what Tony Blair did in the Iraq War"? (Possibly a bad example - those are probably paper, but you get the idea.) PDFs? Anyone could have monkeyed with those. Or left some out, or put something extra in. Or anything. It's just a bunch of bits, and who the hell are you anyway?
+
+ARCHANGEL is a aiming to avert that future. That's the aim of ARCHANGEL. We're trying to save society from slipping away and dissolving into nothing.
 --
