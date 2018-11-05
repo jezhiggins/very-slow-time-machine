@@ -1,0 +1,68 @@
+== Blockchains
+
+A blockchain is a kind of database -
+
+* guarantees the provenance of the data within it
+
+* these guarantees are made without reliance on a centralised authority
+
+[NOTE.speaker]
+--
+So what it is about blockchains that makes me say that?  What properties do they have that other technologies don't?
+
+A blockchain is a kind of database - a very slow write-only database. But it can provide guarantees about the data within it. It can say "this particular data was written at this time by this person" (or at least from this address) and that data is tamper-proof. It can not be altered, and if an attempt is made to alter it, that attempt can be detected.
+--
+
+== Blockchains
+
+image::Bitcoin_Block_Data.png[]
+~By~ ~Matthäus~ ~Wander~ ~https://commons.wikimedia.org/w/index.php?curid=26816920~
+
+[NOTE.speaker]
+--
+Data in a blockchain is stored in blocks, and each block contains a hash of the value of the previous block (which is dependent on the block before that, and so on and so on).  These blocks form a chain that confirms the integrity of the previous block, all the way back the original genesis block.
+
+New blocks are generally created ("mined") by peers on the network shouting random numbers at each other in a given time window (10 minutes for Bitcoin) until someone guesses the right one, and everyone else says "yes that's correct". This is proof-of-work, "here's a new block I did lots of sums on". They then start on creating the next block.  Each blockchain - and who knows how many there are, but there at least 2000 cryptocurrencies - has a different protocol for encoding a block and for settling the consensus, but the overall characteristics are similar.
+
+The result of this is that if you, say, where to install a Bitcoin client on your laptop right now, it would join the network find some peers, and start downloading the bitcoin blockchain. From the beginning. And each time it downloaded a block, it would recalculate all the characteristics of the block, to verify that we where all in agreement.
+
+So, how can we use this property to help secure our archives?
+--
+
+== Blockchains
+
+image::archangel-chain.png[]
+
+[NOTE.speaker]
+--
+When this talk was first announced somebody here, and I'm afraid I couldn't find that email again when I looked for it earlier this week, emailed me about a blockchain based distributed storage system. You bop your content onto the blockchain, and bish-bosh preserved forever more.
+
+We aren't doing that - we aren't putting any of the document content onto the chain.  Two main reasons. First is just the volumes involved. We're talking petabytes. It's just not practical.  The second is the irrevocable nature of blockchain. I've already mentioned there might be policy or legal reasons why a document might not be available for public view. Ok, you say, don't write the full version, write the redacted version. However, the status of a document can change (both ways), and if it's out there, you can't get it back.
+
+Instead, we write a document fingerprint - a hash of the file, type, size, creation date. This is a few tens of bytes, and is essentially constant for each file involved.  For zip and that kind of thing we finger print the zip itself and all the contents. We do that at the SIP stage, so as early as possible in the process. As it goes through the archival process, we additional records for that document, maybe correcting some meta data, or adding the archive id.
+
+At some point in the future - next week, next year, next century - you can go along to the archive and say "about those Tony Blair Iraq war" documents, the archive says "here you are". You can rerun the hashing and file type checks yourself, find that same document in the blockchain, and verify they match.  If they do, you can be satisfied this is indeed the document that originally entered the archive. If not, then there's a problem.
+--
+
+== Blockchains
+
+Proof of Concept
+
+* Ethereum smart contract
+
+* Permissioned network
+
+[NOTE.speaker]
+--
+Anyone here familiar with Ethereum. Ethereum is another blockchain network, home of the Ether cryptocurrency. Ethereum is much, much more interesting than Bitcoin, because it supports 'smart contracts'.  Smart contracts is a jumped up way of saying 'programs on the blockchain'. Ethereum embeds a virtual machine, and you can deploy programs that run on that VM on the blockchain. The contracts expose various public methods, and calls to those methods can form one of the transactions encoded into each block. When your client downloads and validates a block, it runs any smart contract method calls in the block. So a smart contract is way of asking other people to perform computation on your behalf. There's a mechanism for preventing DoS attacks. Essentially each operation has a cost associated with it, so to invoke a method you have to pay for it.
+
+But as an AMI I want a reliable way to present my documents fingerprints to the public, without getting backlogged because of the latest ICO trying to bilk people, or because Cryptokitty popularity has spiked again.
+
+So, we set up our own Ethereum network. And because we're trying to make the world better, we don't use a proof-of-work consensus, we're using a proof-of-authority. I think that might be a poor choice of name, but it does fit for this particular case.
+
+I said we don't want to get involved in cryptocurrencies, but cryptocurrencies are how you mediate access to a blockchain network. In proof-of-work, new coins (bitcoins, ether, zcash) etc are created as part of generating those new blocks. They are "rewards" for doing the work. In a proof of authority network, you create a pool of coins at the beginning, at the genesis, and parcel those out to whomever you like, in whatever proportion you like. At the same time, you define what Ethereum calls a clique - the people who can create new blocks.  You still need to reach a consensus, but only members of the clique are involved in "sealing" new blocks and extending the chain. At least half+1 of the clique must be online for new blocks to be created.
+
+However, anyone can access that network, download the blocks and verify the contents.
+
+We're in the early stages of conversations with other institutions, but we can envisage a system where AMIs around the world are clique members on a permissioned network. As they seal blocks, they are essentially verifying each other. You might argue what's to stop them colluding to change the past records - to rewrite the chain. Well, the public nature of the exercise. If they clique were ever have found to have tampered then the whole deal is off - everyone has failed, and they are all undermined. They would, effectively, be locked in a fatal embrace of trust.
+--
