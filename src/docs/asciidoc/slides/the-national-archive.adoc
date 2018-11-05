@@ -1,0 +1,47 @@
+== The National Archives
+
+image::tna.jpg[]
+
+[NOTE.speaker]
+--
+This is the National Archives - exactly what it says on the label. This is their headquarters in Kew, in South London. They are the official archive of the UK Government and for England and Wales. Long time residents may remember the Public Records Office, or Her Majestry's Stationary Office? TNA is formed of the PRO, HMSO, and they Historical Manuscripts Commission, and the Office of Public Sector Information.
+
+All Government records are retained by the Archive, and it also has a statutory role in overseeing custody of some other public records. Because of its history - it's existed in some form or another for hundreds of years - and the importance of the documents it retains, it has a leading role in archive policy, not just in Britain, but globally.
+
+(contains court records from the C12 onwards,
+medieval, early-modern, and modern central govt records - basically Domesday book onwards,
+maps, plans, architectural records
+wills, criminal records, naturalisation certificates
+armed forces service and operational records
+Foreign Office and Colonial Office corresponance,
+Cabinet papers and Home Office records
+Railways records)
+
+Organisations like TNA, and we can think of other examples in the UK like The Bodlian Library or around the world like The Library of Congress, use the term 'memory institution' (or AMI 'archival and memory institution'). They seem themselves as custodians of the country's and the world's history, and they take that extremely seriously. As you might imagine then, the people there are discomforted, at the very least, but the increasingly post-truth nature of public discourse.
+
+They don't have sprinklers either :)  Argon fire suppressant.
+
+They have a huge collection. It is only getting bigger. In good old days, documents for archiving arrived on boxes. Boxes full of papers. Nowadays, they still arrive in boxes. Boxes of 2TB hard drives.  The contents of those drives are then processed by hand :)
+--
+
+== Archival Process
+
+image::OAIS.gif[]
+
+[NOTE.speaker]
+--
+So a quick primer on archival process -
+
+When "stuff" arrives at TNA it's put into bundles called SIPs - Submission Information Packages. There are various bits of work done at that point - to verify the provenance, make sure the stuff is all there, and doesn't contain things that shouldn't be there, and so on. For digital documents, they're file typed, checksumed, try and confirm the creation dates are correct.  This should be done by the submitters, but I understand they are not great at this.
+
+Once that's all done, it's ready to be archived - at which point we create an Archive Information Package. This is the SIP plus stuff about where the archive is held, & its catalogue reference.
+
+From that you can create a DIP, a Display Information Package. The DIP might be the same as the AIP, but probably isn't. You might present the document in a different format - a PDF say, or some of the document might be
+ redacted, or something of that type. DIPs might change, AIPs don't.
+
+So, you're an AMI, you're receiving scores of digital documents, your reputation is under attack, and you think, I know, I'll use the blockchain to try and preserve my reputation!
+
+Now, normally when someone says "I know! The Blockchain is the answer to my problem" we can all turn round and start heading for the exit.  But I'm going to suggest that maybe, just maybe, using a blockchain might be the right solution here.
+--
+
+

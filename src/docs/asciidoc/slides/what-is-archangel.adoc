@@ -40,7 +40,7 @@ By long term sustainability, we mean we want to try and ensure that public trust
 == ARCHANGEL
 
 And those new technologies are?
-[%step]
+
 * The Blockchain
 
 * Machine Learning
@@ -49,11 +49,15 @@ And those new technologies are?
 --
 And those new technologies are?
 
-The blockchain, or at least a blockchain, or, more properly a distributed ledger technogoly.
+The blockchain, or at least a blockchain, or, more properly a distributed ledger technology.
 
 And machine learning.
 
 Jesus, could it get any more hipster?
 
-Anyone care to have a stab at where we're doing with those particular "new technologies"?
+Are there any blockchain experts in the room? Machine learning wizards? No, me neither.
+
+Be that as it may, anyone care to have a stab at where we're doing with those particular "new technologies"?
+
+That's a very unfair question.  Let me give you a bit more context.
 --

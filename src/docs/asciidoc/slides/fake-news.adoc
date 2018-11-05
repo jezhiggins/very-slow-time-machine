@@ -1,6 +1,6 @@
 == Fake, fake disgusting news
 
-image::flat-earth.png[margin=0]
+image::flat-earth.png[]
 
 [NOTE.speaker]
 --
@@ -8,7 +8,7 @@ We live in interesting times. Truth, objectivity, facts, actual hard proved by s
 
 Any one know the origin of "May you live in interesting times?".
 
-Chinese Curse? Fakes news!
+Chinese Curse? Fake news!
 
 First reported use appears to be by Austen Chamberlain, son of Joseph, brother of Neville, some time in 1936. His father said used the same phrasing, but with a different intent, in 1898 and 1901.
 
