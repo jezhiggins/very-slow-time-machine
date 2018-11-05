@@ -17,3 +17,5 @@ And that's Archangel!
 * https://theodi.org/article/challenges-in-using-blockchain-to-build-trust-in-digital-archiving/[Challenges in using blockchains to build trust in digital archiving] - The ODI Blog
 
 * https://arxiv.org/abs/1804.08342[ARCHANGEL: Trusted Archives of Digital Public Documents] - Paper presented at ACM Document Engineering 2018
+
+* https://github.com/archangel-dlt[ARCHANGEL GitHub Repositories] - Smart contract, JavaScript and Ruby language bindings, Ethereum node support

@@ -21,6 +21,41 @@ We have the AIP - the documents and their archival metadata
 
 We have the DIP - the document as it's presented to you
 
-Let's assume we have the Archangel blockchain infrastructure running, and you can verify the hashes and what-not of the source document. But what if you can no longer read that source document - it's an obsolete format you can no longer display?  
+Let's assume we have the Archangel blockchain infrastructure running, and you can verify the hashes and what-not of the source document. But what if you can no longer read that source document - it's an obsolete format you can no longer display?  What happens then?
+--
 
+== Machine Learning
+
+[NOTE.speaker]
+--
+As a (former?) professor Russel will no doubt have identified this is the part of the ARCHANGEL project where the PhDs are.
+
+You're familiar with the idea that we can train a neural network to identify pictures of, say, cats.  You should it lots of cats, and lots of things which aren't cats and the netowrk 'learns' what a cat looks like.  You can then show it lots of other pictures and it say 'cat', or 'not a cat'.
+--
+
+== Machine Learning
+
+[NOTE.speaker]
+--
+Does everyone have an idea how a neural network operate? How we train them?
+
+OK, super simple version.
+
+Neural networks are composed of software neurons - they have a number of inputs, and an output. You can compose lots and lots of neuron together in all kinds of configurations, but it's conceptually the same.  So they have a number of inputs which they combined together to generate an output.
+
+In training, you set the inputs and tell it the desired outcome. Then you adjust all the weights of the inputs. Then you give it another set of inputs and another desired outcome, and adjust all the weights again. And so on and so on and so on.
+
+And gradually all the weights are adjusted, we hope, so that the network recognises what we want, and rejects what we don't want.  We can then start feeding it unknown inputs to find out what it thinks about them.
+
+(We can immediately see why machine learning systems tend to encode systemic bias.)
+
+== Machine Learning
+
+[NOTE.speaker]
+--
+So let's say I've got a video in my archive.  I train a neural network on the video, and that video alone. The network gets to really know that video. I show it another video, it says 'nah man'.  At some later date, I shift my video to a new video format. I show this new video to my neural network, and it says 'you know what, I recognise that'.
+
+What we're trying to do, with some success, is fingerprint the content of the video. So not the raw bits, but the actual moving image. We can then store the neural net itself on the blockchain. At some point in the future, you can reconstitute that neural network, and revalidate the video.
+
+To make it even harder, the video corpus we're working with are proceedings of the Supreme Court. No action scenes, no jump cuts, just lots of people in similar outfits talking to each other. Jason Statham flicks might be fun but they don't make laws, and the (few) words out Jason's mouth are of no significance what so ever.
 --
