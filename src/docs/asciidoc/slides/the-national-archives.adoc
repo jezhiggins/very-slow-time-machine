@@ -26,7 +26,7 @@ They have a huge collection. It is only getting bigger. In good old days, docume
 
 == Archival Process
 
-image::OAIS.gif[]
+image::OAIS.png[]
 
 [NOTE.speaker]
 --
@@ -36,7 +36,7 @@ When "stuff" arrives at TNA it's put into bundles called SIPs - Submission Infor
 
 Once that's all done, it's ready to be archived - at which point we create an Archive Information Package. This is the SIP plus stuff about where the archive is held, & its catalogue reference.
 
-From that you can create a DIP, a Display Information Package. The DIP might be the same as the AIP, but probably isn't. You might present the document in a different format - a PDF say, or some of the document might be
+From that you can create a DIP, a Dissemination Information Package. The DIP might be the same as the AIP, but probably isn't. You might present the document in a different format - a PDF say, or some of the document might be
  redacted, or something of that type. DIPs might change, AIPs don't.
 
 So, you're an AMI, you're receiving scores of digital documents, your reputation is under attack, and you think, I know, I'll use the blockchain to try and preserve my reputation!

@@ -1,0 +1,26 @@
+== Machine Learning
+
+> So where does the machine learning fit in?
+
+[NOTE.speaker]
+--
+Good question.
+
+Let's flip back to an earlier slide.
+--
+
+== Machine Learning
+
+image::OAIS.png[]
+
+[NOTE.speaker]
+--
+We have our SIP - the documents as they come in
+
+We have the AIP - the documents and their archival metadata
+
+We have the DIP - the document as it's presented to you
+
+Let's assume we have the Archangel blockchain infrastructure running, and you can verify the hashes and what-not of the source document. But what if you can no longer read that source document - it's an obsolete format you can no longer display?  
+
+--

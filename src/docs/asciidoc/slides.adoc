@@ -13,6 +13,8 @@ include::slides/the-national-archives.adoc[]
 
 include::slides/blockchain.adoc[]
 
+include::slides/machine-learning.adoc[]
+
 include::slides/thanks.adoc[]
 
 :imagesdir: images

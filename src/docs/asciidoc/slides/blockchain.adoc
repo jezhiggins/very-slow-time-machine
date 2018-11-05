@@ -65,4 +65,6 @@ I said we don't want to get involved in cryptocurrencies, but cryptocurrencies a
 However, anyone can access that network, download the blocks and verify the contents.
 
 We're in the early stages of conversations with other institutions, but we can envisage a system where AMIs around the world are clique members on a permissioned network. As they seal blocks, they are essentially verifying each other. You might argue what's to stop them colluding to change the past records - to rewrite the chain. Well, the public nature of the exercise. If they clique were ever have found to have tampered then the whole deal is off - everyone has failed, and they are all undermined. They would, effectively, be locked in a fatal embrace of trust.
+
+Does that all clear, make sense?
 --
