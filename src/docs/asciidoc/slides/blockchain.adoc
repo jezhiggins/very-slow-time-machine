@@ -1,6 +1,6 @@
 == !
 
-A blockchain is a kind of database -
+A blockchain is a kind of distributed database -
 
 * guarantees the provenance of the data within it
 
@@ -54,11 +54,160 @@ Proof of Concept
 
 [NOTE.speaker]
 --
-Anyone here familiar with Ethereum. Ethereum is another blockchain network, home of the Ether cryptocurrency. Ethereum is much, much more interesting than Bitcoin, because it supports 'smart contracts'.  Smart contracts is a jumped up way of saying 'programs on the blockchain'. Ethereum embeds a virtual machine, and you can deploy programs that run on that VM on the blockchain. The contracts expose various public methods, and calls to those methods can form one of the transactions encoded into each block. When your client downloads and validates a block, it runs any smart contract method calls in the block. So a smart contract is way of asking other people to perform computation on your behalf. There's a mechanism for preventing DoS attacks. Essentially each operation has a cost associated with it, so to invoke a method you have to pay for it.
+Anyone here familiar with Ethereum? Ethereum is another blockchain network, home of the Ether cryptocurrency. Ethereum is much, much more interesting than Bitcoin, because it supports 'smart contracts'.  Smart contracts is a jumped up way of saying 'programs on the blockchain'. Ethereum embeds a virtual machine, and you can deploy programs that run on that VM on the blockchain. The contracts expose various public methods, and calls to those methods can form one of the transactions encoded into each block. When your client downloads and validates a block, it runs any smart contract method calls in the block. So a smart contract is way of asking other people to perform computation on your behalf. There's a mechanism for preventing DoS attacks. Essentially each operation has a cost associated with it, so to invoke a method you have to pay for it.
 
 But as an AMI I want a reliable way to present my documents fingerprints to the public, without getting backlogged because of the latest ICO trying to bilk people, or because Cryptokitty popularity has spiked again.
+--
 
-So, we set up our own Ethereum network. And because we're trying to make the world better, we don't use a proof-of-work consensus, we're using a proof-of-authority. I think that might be a poor choice of name, but it does fit for this particular case.
+=== !
+
+[source, solidity]
+----
+  function store(string key, string payload) external permittedOnly {
+    bytes32 previous_key = moveExisting(key);
+    bytes32 null_key;
+
+    Payload storage newPayload = registry[key];
+    newPayload.payload = payload;
+    newPayload.previous_key = previous_key;
+
+    if (previous_key == null_key)
+      emit Registration(msg.sender, key, payload);
+    else
+      emit Update(msg.sender, key, payload);
+  } // store
+----
+
+=== !
+
+[source, solidity]
+----
+pragma solidity ^0.4.11;
+
+contract Archangel {
+  address owner;
+
+  struct Payload {
+    string payload;
+    bytes32 previous_key;
+  }
+
+  mapping (string => Payload) private registry;
+  mapping (bytes32 => Payload) private previous_versions;
+  mapping (address => string) private permissions;
+
+  modifier ownerOnly {
+    require (msg.sender == owner);
+    _;
+  }
+
+  modifier permittedOnly {
+    if (bytes(permissions[msg.sender]).length == 0) {
+      emit NoWritePermission(msg.sender);
+      return;
+    }
+    _;
+  }
+
+  event Registration(address _addr, string _key, string _payload);
+  event Update(address _addr, string _key, string _payload);
+  event NoWritePermission(address _addr);
+  event PermissionGranted(address _addr, string _name);
+  event PermissionRemoved(address _addr, string _name);
+
+  constructor() public {
+    owner = msg.sender;
+    string memory name = 'contract';
+    permissions[msg.sender] = name;
+    emit PermissionGranted(owner, name);
+  } // Archangel
+
+  function hasPermission(address addr) external constant returns(bool) {
+    return bytes(permissions[addr]).length != 0;
+  } // hasPermissions
+
+  function grantPermission(address addr, string name) external ownerOnly {
+    if (this.hasPermission(addr))
+      return;
+    permissions[addr] = name;
+    emit PermissionGranted(addr, name);
+  } // grantPermission
+
+  function removePermission(address addr) external ownerOnly {
+    if (!this.hasPermission(addr))
+      return;
+    string memory revoked = permissions[addr];
+    delete permissions[addr];
+    emit PermissionRemoved(addr, revoked);
+  } // removePermission
+
+  function store(string key, string payload) external permittedOnly {
+    bytes32 previous_key = moveExisting(key);
+    bytes32 null_key;
+
+    Payload storage newPayload = registry[key];
+    newPayload.payload = payload;
+    newPayload.previous_key = previous_key;
+
+    if (previous_key == null_key)
+      emit Registration(msg.sender, key, payload);
+    else
+      emit Update(msg.sender, key, payload);
+  } // store
+
+  function fetch(string key) external constant returns(string, bytes32) {
+    Payload storage payload = registry[key];
+    return (payload.payload, payload.previous_key);
+  } // fetch
+
+  function fetchPrevious(bytes32 key) external constant returns(string, bytes32) {
+    Payload storage payload = previous_versions[key];
+    return (payload.payload, payload.previous_key);
+  } // fetchPrevious
+
+  //////////////////////////////////
+  function moveExisting(string key) private returns (bytes32) {
+    bytes32 previous_key;
+    Payload storage existing = registry[key];
+
+    if (bytes(existing.payload).length == 0)
+       return previous_key;
+
+    // move existing payload into previous_versions
+    bytes32 hashed_key = keccak256(abi.encodePacked(key));
+
+    bytes32 prior_key = moveBack(hashed_key);
+
+    previous_versions[hashed_key].payload = existing.payload;
+    previous_versions[hashed_key].previous_key = prior_key;
+
+    return hashed_key;
+  } // hasExisting
+
+  function moveBack(bytes32 key) private returns(bytes32) {
+    bytes32 previous_key;
+    Payload storage prior = previous_versions[key];
+
+    if (bytes(prior.payload).length == 0)
+      return previous_key;
+
+    // new version key
+    bytes32 version_key = keccak256(abi.encodePacked(key, prior.payload, prior.previous_key));
+    previous_versions[version_key].payload = prior.payload;
+    previous_versions[version_key].previous_key = prior.previous_key;
+    return version_key;
+  } // moveBack
+} // contract Archangel
+
+----
+
+== !
+
+image::permissioned-network.png[]
+
+[NOTE.speaker]
+--
+So, rather than run on the public Ethereum network, we set up our own Ethereum network. And because we're trying to make the world better, we don't use a proof-of-work consensus, we're using a proof-of-authority. I think that might be a poor choice of name, but it does fit for this particular case.
 
 I said we don't want to get involved in cryptocurrencies, but cryptocurrencies are how you mediate access to a blockchain network. In proof-of-work, new coins (bitcoins, ether, zcash) etc are created as part of generating those new blocks. They are "rewards" for doing the work. In a proof of authority network, you create a pool of coins at the beginning, at the genesis, and parcel those out to whomever you like, in whatever proportion you like. At the same time, you define what Ethereum calls a clique - the people who can create new blocks.  You still need to reach a consensus, but only members of the clique are involved in "sealing" new blocks and extending the chain. At least half+1 of the clique must be online for new blocks to be created.
 

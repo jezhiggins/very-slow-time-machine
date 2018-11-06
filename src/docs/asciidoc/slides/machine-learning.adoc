@@ -33,16 +33,16 @@ image::minimalist-cat-drawing.jpg[]
 As a (former?) professor Russel will no doubt have identified this is the part of the ARCHANGEL project where the PhDs are.
 
 You're familiar with the idea that we can train a neural network to identify pictures of, say, cats.  You should it lots of cats, and lots of things which aren't cats and the network 'learns' what a cat looks like.  It builds a statistical model of 'catness'. You can then show it lots of other pictures and it say 'cat', or 'not a cat'.
+
+Does everyone have an idea how a neural network operate? How we train them?
 --
 
-== !
+=== !
 
 image::perceptron.png[]
 
 [NOTE.speaker]
 --
-Does everyone have an idea how a neural network operate? How we train them?
-
 OK, super simple version.
 
 Neural networks are composed of software neurons - they have a number of inputs, and an output. You can compose lots and lots of neuron together in all kinds of configurations, but it's conceptually the same.  So they have a number of inputs which they combined together to generate an output.
@@ -54,7 +54,7 @@ And gradually all the weights are adjusted, we hope, so that the network recogni
 (We can immediately see why machine learning systems tend to encode systemic bias.)
 --
 
-== !
+=== !
 
 image::recurrent-nn.png[]
 

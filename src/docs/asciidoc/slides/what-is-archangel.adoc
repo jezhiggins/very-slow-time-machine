@@ -1,6 +1,6 @@
 == !
 
-> The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility and integrity of digital archives*
+> The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility to and integrity of digital archives*
 
 [NOTE.speaker]
 --
@@ -24,7 +24,7 @@ I don't know if I have to tell you that, but I've a feeling we tick something of
 
 == !
 
-> The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility and integrity of digital archives*
+> The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility to and integrity of digital archives*
 
 [NOTE.speaker]
 --
