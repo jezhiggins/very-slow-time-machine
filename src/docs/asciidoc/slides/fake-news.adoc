@@ -3,7 +3,7 @@
 image::flat-earth.png[]
 
 [%step]
-* Facts are not true just because they’re facts
+* "Facts are not true just because they’re facts"
 
 [NOTE.speaker]
 --
