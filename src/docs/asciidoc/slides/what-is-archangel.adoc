@@ -1,4 +1,4 @@
-== ARCHANGEL
+== !
 
 > The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility and integrity of digital archives*
 
@@ -7,13 +7,11 @@
 Because I came in a bit later, I don't know who came up with the name Archangel, or why it's stylised in all-capitals. That makes it sound quite portentous and serious and actually a little bit creepy somehow, which is a shame because Archangel is explicitly about trust.
 --
 
-== ARCHANGEL
-
+== !
 
 > Archangel is a collaboration between the University of Surrey CVSSP, The National Archives, and The Open Data Institute.
 
 > It's funded by Research Councils UK's Digital Economy Programme through the EPSRC (the Engineering and Physical Sciences Research Council
-
 
 [NOTE.speaker]
 --
@@ -24,7 +22,7 @@ It's funded by Research Councils UK's Digital Economy Programme through the the 
 I don't know if I have to tell you that, but I've a feeling we tick something off on a "what we did to puplicise the project" scoresheet if I do. It also means that, right at the moment, the entirity of my income is a drain on the public purse.  Thank you all.
 --
 
-== ARCHANGEL
+== !
 
 > The ARCHANGEL project proposes to deliver *long-term sustainability of digital archives* through *new technologies* that will ensure both *accessibility and integrity of digital archives*
 
@@ -37,7 +35,7 @@ What do we mean?
 By long term sustainability, we mean we want to try and ensure that public trust in the archive can be maintained, not just now, but for years, decades into the future.  We're calling out digital archives, because it's ony a two year project :) Can't cover everything!  And we going to do this through the application of new technologies ...
 --
 
-== ARCHANGEL
+== !
 
 And those new technologies are?
 

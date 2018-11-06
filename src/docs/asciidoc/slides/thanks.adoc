@@ -1,3 +1,30 @@
+== !
+
+image::collab.png[]
+
+[NOTE.speaker]
+--
+Project is still has another six or eight months to run, so who knows quite where it might end up.
+
+Ideally, at some point in the not to different future, we'll have a consortium of institutions around the world cooperating to produce this publically readable, publically verifiable ledger describing all the documents coming in their archives.
+--
+
+== !
+
+* Archives can be trusted because they can show their records have not been altered
+
+* Archives can be trusted because they can be transparent in their practices
+
+* Archives can be trusted because they collaborate openly with others
+
+[NOTE.speaker]
+--
+A shift from a solely institutional underscoring of trust to one supported by technology
+
+It will allow archives to defend their records, allowing us, wider society, to have confidence in the documents the preserve for and provide to us.  It will, additionally, allow archives to be transparent in the practice - look here's the stuff we're dealing with, here's the software we're using, you can check it.
+
+And maybe, maybe, that'll make the world a little bit better.
+--
 
 == THANKS
 

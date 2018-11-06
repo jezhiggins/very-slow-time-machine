@@ -1,4 +1,4 @@
-== Machine Learning
+== !
 
 > So where does the machine learning fit in?
 
@@ -9,7 +9,7 @@ Good question.
 Let's flip back to an earlier slide.
 --
 
-== Machine Learning
+== !
 
 image::OAIS.png[]
 
@@ -24,16 +24,20 @@ We have the DIP - the document as it's presented to you
 Let's assume we have the Archangel blockchain infrastructure running, and you can verify the hashes and what-not of the source document. But what if you can no longer read that source document - it's an obsolete format you can no longer display?  What happens then?
 --
 
-== Machine Learning
+== !
+
+image::minimalist-cat-drawing.jpg[]
 
 [NOTE.speaker]
 --
 As a (former?) professor Russel will no doubt have identified this is the part of the ARCHANGEL project where the PhDs are.
 
-You're familiar with the idea that we can train a neural network to identify pictures of, say, cats.  You should it lots of cats, and lots of things which aren't cats and the netowrk 'learns' what a cat looks like.  You can then show it lots of other pictures and it say 'cat', or 'not a cat'.
+You're familiar with the idea that we can train a neural network to identify pictures of, say, cats.  You should it lots of cats, and lots of things which aren't cats and the network 'learns' what a cat looks like.  It builds a statistical model of 'catness'. You can then show it lots of other pictures and it say 'cat', or 'not a cat'.
 --
 
-== Machine Learning
+== !
+
+image::perceptron.png[]
 
 [NOTE.speaker]
 --
@@ -48,14 +52,30 @@ In training, you set the inputs and tell it the desired outcome. Then you adjust
 And gradually all the weights are adjusted, we hope, so that the network recognises what we want, and rejects what we don't want.  We can then start feeding it unknown inputs to find out what it thinks about them.
 
 (We can immediately see why machine learning systems tend to encode systemic bias.)
+--
 
-== Machine Learning
+== !
+
+image::recurrent-nn.png[]
 
 [NOTE.speaker]
 --
-So let's say I've got a video in my archive.  I train a neural network on the video, and that video alone. The network gets to really know that video. I show it another video, it says 'nah man'.  At some later date, I shift my video to a new video format. I show this new video to my neural network, and it says 'you know what, I recognise that'.
+We can do a surprising amount with a single perceptron, but you won't be surprised that most neural networks are more complicated.  They have many more inputs, which may be connected to multiple neurons. They neurons themselves might be in several layers, each connected in a different way. There might be feedforward, or, as in this case, feedback.  This is a recurrent neural network, because information from the output is fed back into earlier layers.
+
+This is important because it gives RNNs a degree of state, of memory, so the output now depends on the earlier output. They are highly applicable to time series data like, say, a video!
+--
+
+== !
+
+image:video-fingerprint.png[]
+
+[NOTE.speaker]
+--
+So let's say I've got a video in my archive.  I have a neural network watch that video and characterise it. The network gets to really know that video. I show it another video, it says 'nah man'.  At some later date, I shift my video to a new video format. I show this new video to my neural network, and it says 'you know what, I recognise that'.
 
 What we're trying to do, with some success, is fingerprint the content of the video. So not the raw bits, but the actual moving image. We can then store the neural net itself on the blockchain. At some point in the future, you can reconstitute that neural network, and revalidate the video.
 
 To make it even harder, the video corpus we're working with are proceedings of the Supreme Court. No action scenes, no jump cuts, just lots of people in similar outfits talking to each other. Jason Statham flicks might be fun but they don't make laws, and the (few) words out Jason's mouth are of no significance what so ever.
+
+The current method is to slice the video into scenes, and arrange the scenes into clusters. Each cluster is characterised separately - there's a different RNN model for each cluster. Each minute of footage within the scene is hashed.  Typically, we have between 10 and 50 scenes, 2 to 5 clusters, with each scene being a 1 to 10 minutes long.  This little blob is, therefore, multidimensional, spanning out into who knows how many dimensions.  If we do the job right, this cluster will be unique in time and space :)
 --

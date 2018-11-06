@@ -1,6 +1,9 @@
-== Facts are not true just because they’re facts
+== !
 
 image::flat-earth.png[]
+
+[%step]
+* Facts are not true just because they’re facts
 
 [NOTE.speaker]
 --
@@ -23,7 +26,7 @@ The physical records from the past are extremely difficult to tamper with, and a
 Paper (or vellum or papyrus or whatever) isn't ideal though.
 --
 
-== Burn Baby Burn
+== !
 
 image::norwich-library-fire.jpg["Norwich Library Fire"]
 
@@ -44,7 +47,7 @@ The damage in the case of a large fire hadn't, apparently, been considered but t
 So those records were lost - including (I think) the city's Charter from Richard I, but also more recent records such as American Air Division Memorial Library, which was a record of what American airman did in Norfolk during the war - seduce the local ladies and then bugger off home probably, but we'll never really know. The library is gone from history, and this city, and by extension this country and beyond, has a hole in its history.
 --
 
-== A Scanner, Darkly
+== !
 
 image::hard-disks.jpg["Server array"]
 
@@ -67,7 +70,7 @@ Digital documents, and by documents here I mean text, pictures - whether artwork
 The issue with digital documents is one of authenticity. They are supremely easy to tamper with, whether accidentally or on purposes, with malicious or benign intent.  They are also frightfully easy to forge.
 --
 
-== The largest audience ever...
+== !
 
 image::trump-inauguration.png["Trump inauguration"]
 
@@ -88,7 +91,7 @@ Trump, on the hand, well pretty much the only thing he says which is true is his
 It's not just the document that's important then, it's the provenance. It's where it comes from, who's vouching for it.
 --
 
-== Sink or swim
+== !
 
 image::life-belt.jpg["Life belt"]
 

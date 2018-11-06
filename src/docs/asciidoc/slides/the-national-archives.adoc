@@ -1,4 +1,4 @@
-== The National Archives
+== !
 
 image::tna.jpg[]
 
@@ -24,7 +24,7 @@ They don't have sprinklers either :)  Argon fire suppressant.
 They have a huge collection. It is only getting bigger. In good old days, documents for archiving arrived on boxes. Boxes full of papers. Nowadays, they still arrive in boxes. Boxes of 2TB hard drives.  The contents of those drives are then processed by hand :)
 --
 
-== Archival Process
+== !
 
 image::OAIS.png[]
 

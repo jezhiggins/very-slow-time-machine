@@ -1,4 +1,4 @@
-== Blockchains
+== !
 
 A blockchain is a kind of database -
 
@@ -13,9 +13,9 @@ So what it is about blockchains that makes me say that?  What properties do they
 A blockchain is a kind of database - a very slow write-only database. But it can provide guarantees about the data within it. It can say "this particular data was written at this time by this person" (or at least from this address) and that data is tamper-proof. It can not be altered, and if an attempt is made to alter it, that attempt can be detected.
 --
 
-== Blockchains
+== !
 
-image::Bitcoin_Block_Data.png[]
+image::Bitcoin_Block_Data.svg[]
 ~By~ ~Matthäus~ ~Wander~ ~https://commons.wikimedia.org/w/index.php?curid=26816920~
 
 [NOTE.speaker]
@@ -29,7 +29,7 @@ The result of this is that if you, say, where to install a Bitcoin client on you
 So, how can we use this property to help secure our archives?
 --
 
-== Blockchains
+== !
 
 image::archangel-chain.png[]
 
@@ -44,7 +44,7 @@ Instead, we write a document fingerprint - a hash of the file, type, size, creat
 At some point in the future - next week, next year, next century - you can go along to the archive and say "about those Tony Blair Iraq war" documents, the archive says "here you are". You can rerun the hashing and file type checks yourself, find that same document in the blockchain, and verify they match.  If they do, you can be satisfied this is indeed the document that originally entered the archive. If not, then there's a problem.
 --
 
-== Blockchains
+== !
 
 Proof of Concept
 
