@@ -1,6 +1,10 @@
 == !
 
-A blockchain is a kind of distributed database -
+*A blockchain is*
+
+* distributed database 
+
+* append only
 
 * guarantees the provenance of the data within it
 
