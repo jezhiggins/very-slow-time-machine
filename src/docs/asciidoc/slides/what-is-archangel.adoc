@@ -11,7 +11,7 @@ Because I came in a bit later, I don't know who came up with the name Archangel,
 
 > Archangel is a collaboration between the University of Surrey CVSSP, The National Archives, and The Open Data Institute.
 
-> It's funded by Research Councils UK's Digital Economy Programme through the EPSRC (the Engineering and Physical Sciences Research Council
+> It's funded by Research Councils UK's Digital Economy Programme through the EPSRC.
 
 [NOTE.speaker]
 --
