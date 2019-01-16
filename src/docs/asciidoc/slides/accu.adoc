@@ -1,0 +1,11 @@
+== !
+
+image::cpponsea-logo-text.svg[]
+
+The international C++ conference
+in the UK, +
+by the sea
+
+4-6 February 2019
+
+https://cpponsea.uk/

@@ -1,7 +1,7 @@
-= The Very Slow Time Machine
-
 :revealjs_center: false
 :revealjs_progress: false
+
+include::slides/accu.adoc[]
 
 include::slides/hello.adoc[]
 

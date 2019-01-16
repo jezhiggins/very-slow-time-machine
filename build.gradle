@@ -10,17 +10,14 @@ plugins {
 
 
 ext {
-    audience = "slides"
     revealjsTemplateDir = new File('src/reveal.js/revealjs-backends/reveal.js/templates/slim')
 }
-
-version = "1.0-${audience}"
 
 asciidoctor {
     requires 'asciidoctor-diagram'
 
     sources {
-        include "${audience}.adoc"
+        include "index.adoc"
     }
 
     resources {
