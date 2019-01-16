@@ -12,7 +12,7 @@ Ideally, at some point in the not to different future, we'll have a consortium o
 == !
 
 *Achives can be trusted because*
- 
+
 * they can show their records have not been altered
 
 * they can be transparent in their practices
@@ -26,6 +26,25 @@ A shift from a solely institutional underscoring of trust to one supported by te
 It will allow archives to defend their records, allowing us, wider society, to have confidence in the documents the preserve for and provide to us.  It will, additionally, allow archives to be transparent in the practice - look here's the stuff we're dealing with, here's the software we're using, you can check it.
 
 And maybe, maybe, that'll make the world a little bit better.
+--
+
+== HYPE
+
+Snakes Into Snake Oil +
+What Blockchains Are And Why They’re Terrible
+
+ACCU Conference
+
+[NOTE.speaker]
+--
+The talk I've just given is the 45 minute version of the last 2 minutes of a 90 minute session I'm doing at the ACCU Conference entitled
+
+Snakes Into Snake Oil +
+What Blockchains Are And Why They’re Terrible
+
+So looking at the technical details of distributed ledger technologies, consensus mechanisms, why you need 12 GPUs daisy chained together to mine new blocks, why writing smart contracts is really hard, and shouldn't you just be using a database anyway?
+
+Obviously, I'm only a support acts at the ACCU Conference - in the acoustic tent next to the portaloos, not the pyramid stage or anything like that - but do come along if you fancy it.
 --
 
 == THANKS
@@ -47,6 +66,6 @@ And that's Archangel!
 
 * https://arxiv.org/abs/1804.08342[ARCHANGEL: Trusted Archives of Digital Public Documents] - Paper presented at ACM Document Engineering 2018
 
-* https://github.com/archangel-dlt[ARCHANGEL GitHub Repositories] - Smart contract, JavaScript and Ruby language bindings, Ethereum node support
+* https://github.com/archangel-dlt[ARCHANGEL GitHub Repositories] - Smart contract, JavaScript, Ruby, and Java language bindings, Ethereum node support, desktop client, web client
 
 * https://www.newyorker.com/science/elements/looking-for-life-on-a-flat-earth[Looking for Life on a Flat Earth] - The astonishing New Yorker article I mentioned at the start.
