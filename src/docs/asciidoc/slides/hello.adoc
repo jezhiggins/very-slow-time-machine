@@ -5,6 +5,6 @@ image::illuminated-by-monitor-light.jpg["Illuminated By Monitor Light"]
 
 [NOTE.speaker]
 --
-Hello everyone. I'm Jez and I'm currently software-grandad for West Midlands Fire Service and a software developer-cum-researcher for the Archangel Project, and it's the Archangel Project I'm here to talk about today.
+Hello everyone. I'm Jez and I'm currently software-grandad for West Midlands Fire Service and, separately, a software developer-cum-researcher for the Archangel Project, and it's the Archangel Project I'm here to talk about today.
 --
 
