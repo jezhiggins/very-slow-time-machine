@@ -28,6 +28,19 @@ It will allow archives to defend their records, allowing us, wider society, to h
 And maybe, maybe, that'll make the world a little bit better.
 --
 
+== THANKS
+
+image::business-card-front.png["Jez UK", float="right", margin=0]
+
+Jez Higgins
+
+@jezhiggins
+
+[NOTE.speaker]
+--
+And that's Archangel!
+--
+
 == HYPE
 
 Snakes Into Snake Oil +
@@ -45,19 +58,6 @@ What Blockchains Are And Why They’re Terrible
 So looking at the technical details of distributed ledger technologies, consensus mechanisms, why you need 12 GPUs daisy chained together to mine new blocks, why writing smart contracts is really hard, and shouldn't you just be using a database anyway?
 
 Obviously, I'm only a support acts at the ACCU Conference - in the acoustic tent next to the portaloos, not the pyramid stage or anything like that - but do come along if you fancy it.
---
-
-== THANKS
-
-image::business-card-front.png["Jez UK", float="right", margin=0]
-
-Jez Higgins
-
-@jezhiggins
-
-[NOTE.speaker]
---
-And that's Archangel!
 --
 
 == !

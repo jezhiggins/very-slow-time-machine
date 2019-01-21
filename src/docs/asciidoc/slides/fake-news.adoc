@@ -72,12 +72,21 @@ The issue with digital documents is one of authenticity. They are supremely easy
 
 == !
 
-image::trump-inauguration.png["Trump inauguration"]
+image::nps-photo.jpg["National Parks Service Trump inauguration photo"]
 
 [NOTE.speaker]
 --
-Sean Spicer, the Whitehouse press secretary, said Donald Trump drew "the largest audience ever to witness an inauguration, period, both in person and around the globe".
+So here's a photo that was maliciously tampered with. It's a National Parks Service photograph of the Trump inauguration that was cropped to try and make the crowd look bigger than it actually was.
 
+Sean Spicer, the Whitehouse press secretary, said Donald Trump drew "the largest audience ever to witness an inauguration, period, both in person and around the globe".
+--
+
+== !
+
+image::trump-inauguration.png["Guardian Trump vs Obama inauguration"]
+
+[NOTE.speaker]
+--
 So, here's a photo of the Trump inauguration and on the right is a photo from more or less the same point at the end of the National Mall of the crowd at the Obama inauguration.
 
 What do we believe about theses photos? Why?
