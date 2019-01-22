@@ -11,13 +11,13 @@ Ideally, at some point in the not to different future, we'll have a consortium o
 
 == !
 
-*Achives can be trusted because*
+*Archives can be trusted because*
 
 * they can show their records have not been altered
 
 * they can be transparent in their practices
 
-* they are collaborate openly with others
+* they collaborate openly with others
 
 [NOTE.speaker]
 --
