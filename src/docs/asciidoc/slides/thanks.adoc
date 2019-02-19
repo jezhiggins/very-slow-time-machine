@@ -41,25 +41,6 @@ Jez Higgins
 And that's Archangel!
 --
 
-== HYPE
-
-Snakes Into Snake Oil +
-What Blockchains Are And Why They’re Terrible
-
-ACCU Conference
-
-[NOTE.speaker]
---
-The talk I've just given is the 45 minute version of the last 2 minutes of a 90 minute session I'm doing at the ACCU Conference entitled
-
-Snakes Into Snake Oil +
-What Blockchains Are And Why They’re Terrible
-
-So looking at the technical details of distributed ledger technologies, consensus mechanisms, why you need 12 GPUs daisy chained together to mine new blocks, why writing smart contracts is really hard, and shouldn't you just be using a database anyway?
-
-Obviously, I'm only a support acts at the ACCU Conference - in the acoustic tent next to the portaloos, not the pyramid stage or anything like that - but do come along if you fancy it.
---
-
 == !
 
 * https://theodi.org/article/challenges-in-using-blockchain-to-build-trust-in-digital-archiving/[Challenges in using blockchains to build trust in digital archiving] - The ODI Blog
