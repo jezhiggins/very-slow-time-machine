@@ -1,4 +1,4 @@
-Presentation to Nor(DEV), October 2018
+Presentation to Nor(DEV) in November 2018, to ACCU London in January 2019, and Brum.JS in February 2019.
 
 # The Very Slow Time Machine with Jez Higgins
 
