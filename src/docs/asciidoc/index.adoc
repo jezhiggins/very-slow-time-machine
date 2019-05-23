@@ -1,7 +1,7 @@
 :revealjs_center: false
 :revealjs_progress: false
 
-include::slides/brumjs.adoc[]
+include::slides/brumphp.adoc[]
 
 include::slides/hello.adoc[]
 
