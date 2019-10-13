@@ -1,4 +1,4 @@
-Presentation to Nor(DEV) in November 2018, to ACCU London in January 2019, Brum.JS in February 2019, and BrumPHP in May 2019.
+Presentation to Nor(DEV) in November 2018, to ACCU London in January 2019, Brum.JS in February 2019, BrumPHP in May 2019, and Worcester Source in November 2019
 
 # The Very Slow Time Machine with Jez Higgins
 
